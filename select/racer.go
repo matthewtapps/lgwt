@@ -10,7 +10,7 @@ const (
 	tenSecondDuration = 10 * time.Second
 )
 
-func Racer(a, b string) (winder string, error error) {
+func Racer(a, b string) (winnder string, error error) {
 	return ConfigurableRacer(a, b, tenSecondDuration)
 }
 
